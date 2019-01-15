@@ -134,5 +134,13 @@
       withApife: "false",
       withRbac: "true",
     },
+    "issue-summarization-model": {
+      endpoint: "REST",
+      image: "819492823772.dkr.ecr.us-west-2.amazonaws.com/github-issue-summarization:0.1",
+      imagePullSecret: "null",
+      name: "issue-summarization",
+      pvcName: "null",
+      replicas: 2,
+    },
   },
 }
